@@ -488,9 +488,9 @@ def create_player_cards(data_file, template_file, output_file):
 
 if __name__ == "__main__":
     # File paths
-    data_file = "../data/1995 rosters updated formatted v2.xlsx"
+    data_file = "../data/1995 rosters updated formatted v3.xlsx"
     template_file = "../data/Player Cards Template.xlsx"
-    output_file = "../data/1995 Player Cards v2.xlsx"
+    output_file = "../data/1995 Player Cards v3.xlsx"
     
     # Check if files exist
     if not os.path.exists(data_file):
